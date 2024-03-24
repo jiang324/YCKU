@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+#container .about{
+    width: 71%;
+    color: #666;
+    font-size: 20px;
+    /* height: 1200px; */
+    float: left;
+    padding-left: 15px;
+    line-height: 2;
+}
+
+#container .about h2 {
+    font-weight: normal;
+    font-size: 30px;
+    height: 40px;
+    line-height: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #999;
+    text-align: left;
+}
+
+#container .us p{
+    text-indent: 40px;
+}

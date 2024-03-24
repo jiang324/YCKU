@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+
+#container .tickets {
+    width: 71%;
+    color: #666;
+    font-size: 20px;
+    /* height: 1200px; */
+    float: left;
+    padding-left: 15px;
+}
+
+#container .tickets form {
+    height: 250px;
+}
+
+#container .tickets h2 {
+    font-weight: normal;
+    font-size: 30px;
+    height: 40px;
+    line-height: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #999;
+}
+
+/* 航班类型 */
+#container .tickets .type {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+#container .tickets .type span {
+    margin-right: 10px;
+}
+
+#container .tickets ul {
+    display: inline-block;
+}
+
+#container .tickets li {
+    display: inline-block;
+    height: 40px;
+    width: 60px;
+    margin-left: 20px;
+}
+
+#container .tickets a {
+    /* display: block; */
+    color: #666;
+    padding: 2px 8px;
+}
+
+#container .tickets form a.selected,
+#container .tickets form a:hover,
+#container .new .type a.selected,
+#container .new .type a:hover {
+    /* display: block;
+    padding: 2px 8px; */
+    background-color: #458b00;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* 输入部分 */
+#container .tickets .city,
+#container .tickets .time {
+    /* display: inline-block; */
+    width: 42%;
+    height: 130px;
+    float: left;
+}
+
+#container .tickets p {
+    /* display: inline-block; */
+    line-height: 3;
+}
+
+#container .tickets input {
+    height: 40px;
+    width: 230px;
+    outline-style: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 0 5px;
+    margin-left: 10px;
+}
+
+/* 预定按钮 */
+#container .tickets .button {
+    /* display: inline-block; */
+    width: 14%;
+    text-align: center;
+    /* background-color: #666; */
+    height: 125px;
+    line-height: 125px;
+    float: left;
+}
+
+#container .tickets .submit {
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #f60;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* 最新机票部分 */
+#container .new table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#container .new tr {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+#container .new tr:nth-child(2n) {
+    background-color: #fafafa;
+}
+
+#container .new tr:hover {
+    background-color: #eee;
+}
+
+#container .new .price {
+    color: #f60;
+}
+
+#container .new .reserve {
+    background-color: #f60;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    height: 35px;
+    width: 70px;
+    font-size: 20px;
+    line-height: 35px;
+}
